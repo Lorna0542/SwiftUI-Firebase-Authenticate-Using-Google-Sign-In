@@ -19,9 +19,9 @@
 		20CE70FF282D047900817D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE70FE282D047900817D34 /* AppDelegate.swift */; };
 		20CE7102282D04D100817D34 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 20CE7101282D04D100817D34 /* FirebaseAuth */; };
 		20CE7105282D04F100817D34 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 20CE7104282D04F100817D34 /* GoogleSignIn */; };
-		20CE7107282D052000817D34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20CE7106282D052000817D34 /* GoogleService-Info.plist */; };
 		20CE7109282D05A900817D34 /* +View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE7108282D05A900817D34 /* +View.swift */; };
 		20CE710C282D072D00817D34 /* FirebAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE710B282D072D00817D34 /* FirebAuth.swift */; };
+		FB1306932C9115D4005910E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB1306922C9115D4005910E4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +36,10 @@
 		203073E6282D023E006F7F26 /* GoogleSiginBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSiginBtn.swift; sourceTree = "<group>"; };
 		203073E9282D02C7006F7F26 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		20CE70FE282D047900817D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20CE7106282D052000817D34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20CE7108282D05A900817D34 /* +View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+View.swift"; sourceTree = "<group>"; };
 		20CE710A282D05FE00817D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		20CE710B282D072D00817D34 /* FirebAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebAuth.swift; sourceTree = "<group>"; };
+		FB1306922C9115D4005910E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +74,13 @@
 		203073D6282D0204006F7F26 /* SignInUsingGoogle */ = {
 			isa = PBXGroup;
 			children = (
+				FB1306922C9115D4005910E4 /* GoogleService-Info.plist */,
 				20CE710A282D05FE00817D34 /* Info.plist */,
 				20CE70FD282D046200817D34 /* Helper */,
 				203073E8282D025F006F7F26 /* Screen */,
 				203073E5282D020E006F7F26 /* View */,
 				203073D7282D0204006F7F26 /* SignInUsingGoogleApp.swift */,
 				203073DB282D0205006F7F26 /* Assets.xcassets */,
-				20CE7106282D052000817D34 /* GoogleService-Info.plist */,
 				203073DD282D0205006F7F26 /* Preview Content */,
 			);
 			path = SignInUsingGoogle;
@@ -191,8 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				203073DF282D0205006F7F26 /* Preview Assets.xcassets in Resources */,
+				FB1306932C9115D4005910E4 /* GoogleService-Info.plist in Resources */,
 				203073DC282D0205006F7F26 /* Assets.xcassets in Resources */,
-				20CE7107282D052000817D34 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

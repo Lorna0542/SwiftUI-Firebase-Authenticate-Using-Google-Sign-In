@@ -41,8 +41,12 @@ struct LoginScreen: View {
                 GoogleSiginBtn {
                     // TODO: - Call the sign method here
                     FirebAuth.share.signinWithGoogle(presenting: getRootViewController()) { error in
-                        // TODO: Handle ERROR
-                    }
+                            if let error = error {
+                                print("Error signing in with Google: \(error.localizedDescription)")
+                            } else {
+                                print("Successfully signed in with Google")
+                            }
+                        }
                 } // GoogleSiginBtn
             } // VStack
             .padding(.top, 52)
