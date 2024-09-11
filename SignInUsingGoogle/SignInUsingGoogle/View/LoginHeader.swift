@@ -2,7 +2,7 @@
 //  LoginHeader.swift
 //  SignInUsingGoogle
 //
-//  Created by Swee Kwang Chua on 4/9/22.
+//  Created by Alumno on 9/09/24.
 //
 
 import SwiftUI
@@ -10,14 +10,16 @@ import SwiftUI
 struct LoginHeader: View {
     var body: some View {
         VStack {
-            Text("Hello Again!")
+            Text("Hola! Bienvenido a Bufetec")
                 .font(.largeTitle)
-                .fontWeight(.medium)
+                .multilineTextAlignment(.center)
+                //.fontWeight(.medium)
                 .padding()
             
-            Text("Welcome to back, You've \nbeen missed")
+            Text("Haz login para acceder a tu perfil y tus casos")
+                .tint(.secondary)
                 .multilineTextAlignment(.center)
-        }
+                .padding(.top,2)        }
     }
 }
 

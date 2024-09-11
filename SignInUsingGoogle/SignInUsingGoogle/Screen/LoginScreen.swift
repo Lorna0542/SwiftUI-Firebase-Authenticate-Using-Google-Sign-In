@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  SignInUsingGoogle
 //
-//  Created by Swee Kwang Chua on 12/5/22.
+//  Created by Alumno on 9/09/24.
 //
 
 import SwiftUI
@@ -16,6 +16,9 @@ struct LoginScreen: View {
     
     var body: some View {
         VStack {
+            Image("LogoTec")
+                .resizable()
+                .frame(width:100, height: 100)
             VStack {
                 LoginHeader()
                     .padding(.bottom)
@@ -56,8 +59,7 @@ struct LoginScreen: View {
 }
 
 
-struct LoginScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginScreen()
-    }
+#Preview{
+    LoginScreen()
 }
+

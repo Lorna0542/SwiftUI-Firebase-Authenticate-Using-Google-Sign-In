@@ -2,19 +2,17 @@
 //  Home.swift
 //  SignInUsingGoogle
 //
-//  Created by Swee Kwang Chua on 12/5/22.
+//  Created by Alumno on 9/09/24.
 //
 
 import SwiftUI
 
 struct Home: View {
     var body: some View {
-        Text("Hello, World! " )
+        Text("Hello, World! y" )
     }
 }
 
-struct Home_Previews: PreviewProvider {
-    static var previews: some View {
-        Home()
-    }
-}
+#Preview {
+    Home()
+} 
